@@ -32,7 +32,7 @@ body {
     background-image: url("https://img.freepik.com/free-photo/businesswoman-driving-her-car-city_23-2148766996.jpg?t=st=1714149798~exp=1714153398~hmac=a1d0749a2b8917cf1ccc7c0dc4ceb03239fd44ffb8bd8a19d313265edeea7289&w=740");
     background-size: cover;
     height: 538px;
-    width: 1440px;
+    width: 100%;
 }
 
 .texto-boas-vindas {
@@ -51,4 +51,28 @@ body {
     font-size: 64px;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.botao-saiba-mais {
+    background-color: #1696DB;
+    border-radius: 8px;
+    border-style: none;
+    width: 155px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.botao-adquirir-servico {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border-style: none;
+    width: 170px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1696DB;
+    margin-left: 10px;
 }

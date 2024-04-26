@@ -27,3 +27,10 @@ body {
     border-style: none;
     color: #000000;
 }
+
+.imagem-boas-vindas {
+    background-image: url("https://img.freepik.com/free-photo/businesswoman-driving-her-car-city_23-2148766996.jpg?t=st=1714149798~exp=1714153398~hmac=a1d0749a2b8917cf1ccc7c0dc4ceb03239fd44ffb8bd8a19d313265edeea7289&w=740");
+    background-size: cover;
+    height: 538px;
+    width: 1440px;
+}

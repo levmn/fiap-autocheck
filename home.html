@@ -19,45 +19,53 @@
 <body>
     <header> <!-- Cabeçalho (logotipo, menu de navegação) -->
         <nav class="menu-navegacao">
-            <a href="">
-                <img id="logo" src="./img/autocheck-azul.png" alt="Logotipo Autocheck">
+            <div class="cabecalho">
+                <a href="">
+                    <img id="logo" src="./img/autocheck-azul.png" alt="Logotipo Autocheck">
+                </a>
+
+                <ul class="lista-navegacao">
+                    <li class="item-lista-navegacao">
+                        <a href="">Sobre nós</a>
+                    </li>
+                    <li class="item-lista-navegacao">
+                        <a href="">Parceria Porto</a>
+                    </li>
+                    <li class="item-lista-navegacao">
+                        <a href="">Ajuda</a>
+                    </li>
+                </ul>
+            </div>
+
+            <a href="login.html" class="botao-entrar">
+                <img src="./img/user.png" alt="">
+                <p>Entrar</p>
             </a>
-
-            <ul class="lista-horizontal">
-                <li>Sobre nós</li>
-                <li>Parceria Porto</li>
-                <li>Ajuda</li>
-            </ul>
-
-            <button class="botao-entrar">
-                <a href="login.html">Entrar</a>
-            </button>
         </nav>
     </header>
 
     <main>
-        <section class="imagem-boas-vindas texto-boas-vindas"> <!-- Sessão de boas-vindas -->
+        <section class="section-boas-vindas texto-boas-vindas"> <!-- Sessão de boas-vindas -->
             <div class="container">
                 <h1>Seja Bem Vindo</h1>
-                <p>Conheça AutoCheck, o seu novo mecânico de bolso!</p>
+                <p>Conheça <b>AutoCheck</b>, o seu novo mecânico de bolso!</p>
                 <div>
                     <button class="botao-saiba-mais">Saiba Mais</button>
                     <button class="botao-adquirir-servico">Adquirir Serviço</button>
                 </div>
             </div>
-
         </section>
 
-        <section> <!-- Sessão de serviços -->
-
+        <section class="section-servicos"> <!-- Sessão de serviços -->
+            <h2>Nosso Serviços</h2>
         </section>
 
-        <section> <!-- Sessão de integrantes -->
-
+        <section class="section-time"> <!-- Sessão de integrantes -->
+            <h2>Time AutoCheck</h2>
         </section>
 
-        <section> <!-- Sessão de contato -->
-
+        <section class="section-contato"> <!-- Sessão de contato -->
+            <h2>Fale Conosco!</h2>
         </section>
     </main>
 

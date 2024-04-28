@@ -71,3 +71,43 @@ body {
     height: 35px;
     margin-right: 10px;
 }
+
+.estilo-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#logo-footer {
+    width: 300px;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.redes-sociais a {
+    display: inline-block;
+}
+
+.redes-sociais img {
+    height: 35px;
+    width: auto;
+}
+
+.icones-redes-sociais {
+    display: flex;
+    gap: 10px;
+}

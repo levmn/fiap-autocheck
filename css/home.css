@@ -1,7 +1,8 @@
+/* Boas Vindas */
 .section-boas-vindas {
-    position: relative; /* Para o pseudo-elemento ficar posicionado corretamente */
+    position: relative;
     height: 538px;
-    width: 100%;
+    width: 100vw;
 }
 
 .section-boas-vindas::after {
@@ -11,13 +12,12 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(/img/imagem-section-principal.jpg);
+    background-image: url("../img/imagem-section-principal.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    filter: hue-rotate(-5deg);
-    filter: brightness(0.5);
+    filter: hue-rotate(-5deg) brightness(0.5);
     z-index: -1;
 }
 
@@ -85,9 +85,10 @@
     transition: 0.5s;
 }
 
+/* Nossos Serviços */
 .section-servicos {
     height: 538px;
-    width: 100%;
+    width: 100vw;
 }
 
 .section-servicos h2 {
@@ -95,9 +96,47 @@
     font-weight: 600;
     color: #3AC0E1;
     text-align: center;
-    padding-top: 50px;
+    margin-top: 40px;
 }
 
+.section-servicos p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #0f5a6c;
+    text-align: center;
+    margin: 20px 300px;
+}
+
+.cards-servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-texto {
+    text-align: center;
+    margin: 15px 0;
+    color: #0f5a6c;
+}
+
+.servico-img-1,
+.servico-img-2,
+.servico-img-3 {
+    width: 20rem;
+    border-radius: 8px;
+    filter: hue-rotate(-5deg) brightness(0.5);
+}
+
+.servico-img-1:hover,
+.servico-img-2:hover,
+.servico-img-3:hover {
+    cursor: pointer;
+    filter: hue-rotate(-5deg) brightness(0.8);
+    transition: 0.5s;
+}
+
+/* Time AutoCheck */
 .section-time {
     height: 538px;
     width: 100%;

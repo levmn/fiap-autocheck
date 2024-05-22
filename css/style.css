@@ -167,8 +167,18 @@ img { /* Serve para flexibilizar as imagens para os Media Queries */
 
 @media (min-width: 992px) {
 
+    ul.lista-navegacao {
+        position: relative;
+        left: 0;
+    }
+
 }
 
 @media (min-width: 1200px) {
+
+    ul.lista-navegacao {
+        position: relative;
+        left: 0;
+    }
 
 }

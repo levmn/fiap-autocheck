@@ -4,8 +4,17 @@
     padding: 0;
 }
 
+html { /* Serve para criar uma medida relativa do site, vamos usar nas Media Queries com REM*/
+    font-size: 20px;
+}
+
 body {
     font-family: "Rubik", Arial, Helvetica, sans-serif;
+    position: relative; /* Vai criar um ponto de base */
+}
+
+img { /* Serve para flexibilizar as imagens para os Media Queries */
+    max-width: 100%;
 }
 
 /* CSS do menu de navegação/cabeçalho */
@@ -39,7 +48,7 @@ body {
     list-style: none;
     display: inline-block;
     margin: 0 20px;
-    font-size: 20px;
+    font-size: 1rem;
     flex-grow: 1;
     color: #0f5a6c;
 }
@@ -70,7 +79,7 @@ body {
 
 .botao-entrar p {
     color: #000000;
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 500;
     text-align: center;
 }

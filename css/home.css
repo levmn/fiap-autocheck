@@ -87,7 +87,6 @@
 
 /* Nossos Serviços */
 .section-servicos {
-    height: 538px;
     width: 100vw;
 }
 
@@ -100,18 +99,16 @@
 }
 
 .section-servicos p {
-    font-size: 1rem;
     font-weight: 400;
     color: #0f5a6c;
     text-align: center;
-    margin: 20px 300px;
 }
 
 .cards-servicos {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 20px;
+    margin: 0 10%;
 }
 
 .card-texto {
@@ -163,4 +160,39 @@
     color: #3AC0E1;
     text-align: center;
     padding-top: 50px;
+}
+
+@media (max-width: 576px) {
+    
+}
+
+@media (min-width: 576px) {
+    
+}
+
+@media (min-width: 768px) {
+
+    .section-servicos p {
+        font-size: 1rem;
+        margin: 20px 14%;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .section-servicos p {
+        font-size: 1rem;
+        margin: 20px 20%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .section-servicos p {
+        font-size: 1rem;
+        margin: 20px 22%;
+    }
+
 }

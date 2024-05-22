@@ -150,7 +150,6 @@
 
 /* Área de Contato */
 .section-contato {
-    height: 538px;
     width: 100%;
 }
 
@@ -159,7 +158,38 @@
     font-weight: 600;
     color: #3AC0E1;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 40px;
+}
+
+.section-contato p {
+    margin: 20px 22%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0f5a6c;
+    text-align: center;
+}
+
+.container-contato {
+    margin: 0 10% 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.informacoes-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contatos {
+    margin-top: 10px;
+    width: 400px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #0f5a6c;
 }
 
 @media (max-width: 576px) {

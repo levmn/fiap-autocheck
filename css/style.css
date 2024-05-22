@@ -137,3 +137,38 @@ img { /* Serve para flexibilizar as imagens para os Media Queries */
     display: flex;
     gap: 10px;
 }
+
+@media (max-width: 576px) {
+    
+    ul.lista-navegacao {
+        position: absolute;
+        left: -150%;
+    }
+
+}
+
+@media (min-width: 576px) {
+    
+    ul.lista-navegacao {
+        position: absolute;
+        left: -150%;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    ul.lista-navegacao {
+        position: absolute;
+        left: -150%;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

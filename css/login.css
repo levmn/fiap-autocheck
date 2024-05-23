@@ -1,0 +1,66 @@
+/* Conteúdo principal (login) */
+.container {
+    margin: 40px 10%;
+}
+
+#icon-backpage {
+    width: 30px;
+    margin-bottom: 40px;
+}
+
+.titulo-pagina {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.descricao-pagina {
+    font-size: 0.8rem;
+    margin-bottom: 40px;
+}
+
+#login,
+#senha {
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    border: 2px solid #0f5a6c;
+    border-radius: 8px;
+}
+
+.formulario div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.formulario a {
+    font-size: 0.7rem;
+    color: gray;
+}
+
+.button-enviar {
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    padding: 10px 20px;
+    background-color: #3ac0e1;
+    border: none;
+    border-radius: 8px;
+}
+
+.criar-conta {
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.criar-conta a {
+    margin: 10px 0;
+    font-weight: 700;
+    color: #3ac0e1;
+    text-decoration: none;
+}

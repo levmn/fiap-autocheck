@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login.css">
     <link rel="icon" type="image/x-icon" href="./img/autocheck-azul-logo.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
 
     <title>Login</title>
 </head>
@@ -38,14 +44,24 @@
     </header>
 
     <main> <!-- Conteúdo principal (login) -->
-        <div>
-            <img id = "icon-backpage" src="" alt="opção de volta de página">
-            <h1>Acessar Conta</h1>
-            <p>Preencha seus dados para continuar</p>
-            <a href="">Esqueci a minha senha</a>
-            <button>Entrar</button>
-            <p>Não tem uma conta na AutoCheck</p>
-            <a href="">Crie seu cadastro</a>
+        <div class="container">
+            <img id = "icon-backpage" src="./img/voltar-preto.png" alt="opção de volta de página">
+            <h1 class="titulo-pagina">Acessar Conta</h1>
+            <p class="descricao-pagina">Preencha seus dados para continuar</p>
+
+            <form action="" method="post" class="formulario">
+                <input type="text" name="login" id="login" placeholder="E-mail ou CPF">
+                <input type="senha" name="senha" id="senha" placeholder="Senha">
+                <div>
+                    <a href="">Esqueci a minha senha</a>
+                    <button type="submit" class="button-enviar">Entrar</button>
+                </div>
+            </form>
+            
+            <div class="criar-conta">
+                <p>Não tem uma conta na AutoCheck?</p>
+                <a href="">Crie seu cadastro!</a>
+            </div>
         </div>
     </main>
 

@@ -41,13 +41,11 @@
 }
 
 .container h1 {
-    font-size: 3.2rem;
     text-transform: uppercase;
     font-weight: 700;
 }
 
 .container p {
-    font-size: 1.2rem;
     font-weight: 300;
     text-align: center;
     margin-bottom: 20px;
@@ -57,12 +55,11 @@
     background-color: #1696DB;
     border-radius: 8px;
     border-style: none;
-    width: 155px;
     height: 45px;
+    width: 155px;
     font-size: 1rem;
     font-weight: 600;
     color: #FFFFFF;
-    margin-right: 10px;
     cursor: pointer;
 }
 
@@ -75,12 +72,11 @@
     background-color: #FFFFFF;
     border-radius: 8px;
     border-style: none;
-    width: 170px;
     height: 45px;
+    width: 170px;
     font-size: 1rem;
     font-weight: 600;
     color: #1696DB;
-    margin-left: 10px;
     cursor: pointer;
 }
 
@@ -227,13 +223,28 @@
     background-size: contain;
     height: 30px;
     border: none;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 @media (max-width: 575px) {
 
     /* Boas Vindas */
-    
+    .container h1 {
+        font-size: 2.5rem;
+    }
+
+    .container p {
+        font-size: 0.9rem;
+        width: 250px;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
     /* Nossos Serviços */
     .section-servicos p {
         margin: 40px 11% 20px;
@@ -244,6 +255,9 @@
     }
 
     /* Time AutoCheck */
+    .integrantes {
+        flex-direction: column;
+    }
 
     /* Área de Contato */
     .section-contato p {
@@ -265,7 +279,11 @@
     }
 
     .contatos {
+        margin-bottom: 5px;
+        font-size: 0.85rem;
         flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
     }
 
     iframe {
@@ -276,6 +294,21 @@
 @media (min-width: 576px) and (max-width: 767px) {
 
     /* Boas Vindas */
+    .container h1 {
+        font-size: 3.2rem;
+    }
+
+    .container p {
+        font-size: 1.2rem;
+    }
+
+    .botao-saiba-mais {
+        margin-right: 10px;
+    }
+
+    .botao-adquirir-servico {
+        margin-left: 10px;
+    }
 
     /* Nossos Serviços */
     .section-servicos p {
@@ -330,6 +363,21 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
     /* Boas Vindas */
+    .container h1 {
+        font-size: 3.2rem;
+    }
+
+    .container p {
+        font-size: 1.2rem;
+    }
+
+    .botao-saiba-mais {
+        margin-right: 10px;
+    }
+
+    .botao-adquirir-servico {
+        margin-left: 10px;
+    }
 
     /* Nossos Serviços */
     .section-servicos p {
@@ -386,6 +434,21 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 
     /* Boas Vindas */
+    .container h1 {
+        font-size: 3.2rem;
+    }
+
+    .container p {
+        font-size: 1.2rem;
+    }
+
+    .botao-saiba-mais {
+        margin-right: 10px;
+    }
+
+    .botao-adquirir-servico {
+        margin-left: 10px;
+    }
 
     /* Nossos Serviços */
     .section-servicos p {
@@ -441,7 +504,23 @@
 }
 
 @media (min-width: 1200px) {
+
     /* Boas Vindas */
+    .container h1 {
+        font-size: 3.2rem;
+    }
+
+    .container p {
+        font-size: 1.2rem;
+    }
+
+    .botao-saiba-mais {
+        margin-right: 10px;
+    }
+
+    .botao-adquirir-servico {
+        margin-left: 10px;
+    }
 
     /* Nossos Serviços */
     .section-servicos p {

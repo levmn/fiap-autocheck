@@ -19,10 +19,6 @@ img { /* Serve para flexibilizar as imagens para os Media Queries */
 
 /* CSS do menu de navegação/cabeçalho */
 
-#logo {
-    width: 300px;
-}
-
 #logo-link {
     flex-grow: 0;
     flex-shrink: 0;
@@ -32,15 +28,13 @@ img { /* Serve para flexibilizar as imagens para os Media Queries */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
-
 }
 
 .menu-navegacao {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 10px;
+    padding: 20px 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -62,14 +56,12 @@ img { /* Serve para flexibilizar as imagens para os Media Queries */
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 165px;
     height: 50px;
     background-color: #e1f6fb;
     border-radius: 16px;
     border-style: none;
     text-decoration: none;
     cursor: pointer;
-    margin-right: 20px;
 }
 
 .botao-entrar:hover {
@@ -138,47 +130,97 @@ img { /* Serve para flexibilizar as imagens para os Media Queries */
     gap: 10px;
 }
 
-@media (max-width: 576px) {
-    
-    ul.lista-navegacao {
-        position: absolute;
-        left: -150%;
+@media (max-width: 575px) {
+    #logo {
+        width: 150px;
     }
 
-}
-
-@media (min-width: 576px) {
-    
-    ul.lista-navegacao {
-        position: absolute;
-        left: -150%;
+    .botao-entrar {
+        width: 130px;
     }
-
-}
-
-@media (min-width: 768px) {
 
     ul.lista-navegacao {
         position: absolute;
         left: -150%;
     }
-
 }
 
-@media (min-width: 992px) {
+@media (min-width: 576px) and (max-width: 767px) {
+    #logo {
+        width: 300px;
+    }
+
+    .cabecalho {
+        padding: 0 20px;
+    }
+
+    .botao-entrar {
+        margin-right: 20px;
+        width: 165px;
+    }
+
+    ul.lista-navegacao {
+        position: absolute;
+        left: -150%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #logo {
+        width: 300px;
+    }
+
+    .cabecalho {
+        padding: 0 20px;
+    }
+
+    .botao-entrar {
+        margin-right: 20px;
+        width: 165px;
+    }
+
+    ul.lista-navegacao {
+        position: absolute;
+        left: -150%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #logo {
+        width: 300px;
+    }
+
+    .cabecalho {
+        padding: 0 20px;
+    }
+
+    .botao-entrar {
+        margin-right: 20px;
+        width: 165px;
+    }
 
     ul.lista-navegacao {
         position: relative;
         left: 0;
     }
-
 }
 
 @media (min-width: 1200px) {
+    #logo {
+        width: 400px;
+    }
+
+    .cabecalho {
+        padding: 0 20px;
+    }
+
+    .botao-entrar {
+        margin-right: 20px;
+        width: 165px;
+    }
 
     ul.lista-navegacao {
         position: relative;
         left: 0;
     }
-
 }

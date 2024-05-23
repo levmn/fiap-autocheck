@@ -5,9 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cadastro-veiculo.css">
     <link rel="icon" type="image/x-icon" href="./img/autocheck-azul-logo.ico">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
     <title>Cadastrar Veículo</title>
+
 </head>
 
 <body>
@@ -38,6 +45,20 @@
     </header>
 
     <main> <!-- Conteúdo principal (cadastro de veículo) -->     
+        <div class="container">
+            <img id = "icon-backpage" src="./img/voltar-preto.png" alt="opção de volta de página">
+            <h1 class="titulo-pagina">Cadastrar Veículo</h1>
+            <p class="descricao-pagina">Preencha as informações do seu veículo</p>
+
+            <form action="" method="post" class="formulario">
+                <input type="text" name="ano" id="ano" placeholder="Ano">
+                <input type="text" name="montadora" id="montadora" placeholder="Montadora">
+                <input type="text" name="veiculo" id="veiculo" placeholder="Veículo">
+                <input type="text" name="motor" id="motor" placeholder="Motor">
+                <div>
+                    <button type="submit" class="button-enviar">Cadastrar</button>
+                </div>
+            </form>
     </main>
     <footer class="estilo-footer"> <!-- Rodapé (redes sociais e direitos reservados) -->
         <div class="container-footer">

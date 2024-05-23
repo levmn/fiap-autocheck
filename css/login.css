@@ -1,31 +1,22 @@
 /* Conteúdo principal (login) */
-.container {
-    margin: 40px 10%;
-}
 
 #icon-backpage {
-    width: 30px;
     margin-bottom: 40px;
 }
 
 .titulo-pagina {
-    font-size: 1.1rem;
     margin-bottom: 5px;
 }
 
 .descricao-pagina {
-    font-size: 0.8rem;
     margin-bottom: 40px;
 }
 
 #login,
 #senha {
     font-family: "Rubik", Arial, Helvetica, sans-serif;
-    font-size: 0.8rem;
     width: 100%;
     margin-bottom: 20px;
-    padding: 10px 10px;
-    border: 2px solid #0f5a6c;
     border-radius: 8px;
 }
 
@@ -33,27 +24,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 
 .formulario a {
-    font-size: 0.7rem;
     color: gray;
 }
 
 .button-enviar {
     font-family: "Rubik", Arial, Helvetica, sans-serif;
-    font-size: 1rem;
     font-weight: 700;
     color: white;
-    padding: 10px 20px;
     background-color: #3ac0e1;
     border: none;
     border-radius: 8px;
 }
 
 .criar-conta {
-    font-size: 0.7rem;
     display: flex;
     flex-direction: column;
 }
@@ -63,4 +50,198 @@
     font-weight: 700;
     color: #3ac0e1;
     text-decoration: none;
+}
+
+@media (max-width: 575px) {
+    .container {
+        margin: 40px 10%;
+    }
+
+    #icon-backpage {
+        width: 30px;
+    }
+
+    .titulo-pagina {
+        font-size: 1.1rem;
+    }
+
+    .descricao-pagina {
+        font-size: 0.8rem;
+    }
+
+    #login,
+    #senha {
+        font-size: 0.8rem;
+        padding: 10px 10px;
+        border: 2px solid #0f5a6c;
+    }
+
+    .formulario a {
+        font-size: 0.7rem;
+    }
+
+    .button-enviar {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    .criar-conta {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .container {
+        margin: 60px 10%;
+    }
+
+    #icon-backpage {
+        width: 50px;
+    } 
+
+    .titulo-pagina {
+        font-size: 1.8rem;
+    }
+
+    .descricao-pagina {
+        font-size: 1.2rem;
+    }
+
+    #login,
+    #senha {
+        font-size: 1.2rem;
+        padding: 15px 15px;
+        border: 3px solid #0f5a6c;
+    }
+
+    .formulario a {
+        font-size: 1.1rem;
+    }
+
+    .button-enviar {
+        font-size: 1.4rem;
+        padding: 15px 25px;
+    }
+
+    .criar-conta {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        margin: 60px 10%;
+    }
+
+    #icon-backpage {
+        width: 50px;
+    } 
+
+    .titulo-pagina {
+        font-size: 1.8rem;
+    }
+
+    .descricao-pagina {
+        font-size: 1.2rem;
+    }
+
+    #login,
+    #senha {
+        font-size: 1.2rem;
+        padding: 15px 15px;
+        border: 3px solid #0f5a6c;
+    }
+
+    .formulario a {
+        font-size: 1.1rem;
+    }
+
+    .button-enviar {
+        font-size: 1.4rem;
+        padding: 15px 25px;
+    }
+
+    .criar-conta {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        margin: 60px 10%;
+    }
+
+    #icon-backpage {
+        width: 60px;
+    } 
+
+    .titulo-pagina {
+        font-size: 2rem;
+    }
+
+    .descricao-pagina {
+        font-size: 1.4rem;
+    }
+
+    .button-enviar {
+        font-size: 1.7rem;
+    }
+
+    #login,
+    #senha {
+        font-size: 1.4rem;
+        padding: 15px 15px;
+        border: 3px solid #0f5a6c;
+    }
+
+    .formulario a {
+        font-size: 1.3rem;
+    }
+
+    .button-enviar {
+        font-size: 1.9rem;
+        padding: 15px 25px;
+    }
+
+    .criar-conta {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        margin: 60px 20%;
+    }
+
+    #icon-backpage {
+        width: 70px;
+    } 
+
+    .titulo-pagina {
+        font-size: 2.3rem;
+    }
+
+    .descricao-pagina {
+        font-size: 1.7em;
+    }
+
+    #login,
+    #senha {
+        font-size: 1.7rem;
+        padding: 15px 15px;
+        border: 3px solid #0f5a6c;
+    }
+
+    .formulario a {
+        font-size: 1.6rem;
+    }
+
+    .button-enviar {
+        font-size: 1.9rem;
+        padding: 15px 25px;
+    }
+
+    .criar-conta {
+        font-size: 1.6rem;
+    }
 }

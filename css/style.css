@@ -94,6 +94,7 @@ img { /* Serve para flexibilizar as imagens para os Media Queries */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     padding: 20px 50px;
     background-color: #000000;
     color: #FFFFFF;

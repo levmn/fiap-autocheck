@@ -5,9 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cadastro.css">
     <link rel="icon" type="image/x-icon" href="./img/autocheck-azul-logo.ico">
 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
     <title>Cadastro</title>
+
 </head>
 
 <body>
@@ -39,7 +47,21 @@
     </header>
 
     <main> <!-- Conteúdo principal (cadastro) -->
+        <div class="container">
+            <img id = "icon-backpage" src="./img/voltar-preto.png" alt="opção de volta de página">
+            <h1 class="titulo-pagina">Cadastrar Conta</h1>
+            <p class="descricao-pagina">Preencha seus dados para continuar</p>
 
+            <form action="" method="post" class="formulario">
+                <input type="text" name="nome" id="nome" placeholder="Nome completo">
+                <input type="text" name="cpf" id="cpf" placeholder="CPF">
+                <input type="text" name="email" id="email" placeholder="E-mail">
+                <input type="text" name="senha" id="senha" placeholder="Senha">
+                <input type="text" name="confirmar-senha" id="confirmar-senha" placeholder="Confirme a senha">
+                <div>
+                    <button type="submit" class="button-enviar">Cadastrar</button>
+                </div>
+            </form>
     </main>
 
     <footer class="estilo-footer"> <!-- Rodapé (redes sociais e direitos reservados) -->

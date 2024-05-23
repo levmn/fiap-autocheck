@@ -1,0 +1,50 @@
+/* Conteúdo principal (login) */
+.container {
+    margin: 40px 10%;
+}
+
+#icon-backpage {
+    width: 30px;
+    margin-bottom: 40px;
+}
+
+.titulo-pagina {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.descricao-pagina {
+    font-size: 0.8rem;
+    margin-bottom: 40px;
+}
+
+#nome,
+#cpf,
+#email,
+#senha,
+#confirmar-senha {
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    border: 2px solid #0f5a6c;
+    border-radius: 8px;
+}
+
+.formulario div {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 40px;
+}
+
+.button-enviar {
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    padding: 10px 20px;
+    background-color: #3ac0e1;
+    border: none;
+    border-radius: 8px;
+}

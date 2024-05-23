@@ -4,10 +4,12 @@
 }
 
 .titulo-pagina {
+    color: #3AC0E1;
     margin-bottom: 5px;
 }
 
 .descricao-pagina {
+    color: #0f5a6c;
     margin-bottom: 40px;
 }
 
@@ -18,6 +20,7 @@
     font-family: "Rubik", Arial, Helvetica, sans-serif;
     width: 100%;
     margin-bottom: 20px;
+    border: 2px solid #0f5a6c;
     border-radius: 8px;
 }
 
@@ -46,11 +49,11 @@
     }
 
     .titulo-pagina {
-        font-size: 1.1rem;
+        font-size: 1.4rem;
     }
 
     .descricao-pagina {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     #ano,
@@ -59,7 +62,6 @@
     #motor {
         font-size: 0.8rem;
         padding: 10px 10px;
-        border: 2px solid #0f5a6c;
     }
 
     .button-enviar {
@@ -82,7 +84,7 @@
     }
 
     .descricao-pagina {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     #ano,
@@ -91,7 +93,6 @@
     #motor {
         font-size: 1.2rem;
         padding: 15px 15px;
-        border: 3px solid #0f5a6c;
     }
 
     .button-enviar {
@@ -114,7 +115,7 @@
     }
 
     .descricao-pagina {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     #ano,
@@ -123,7 +124,6 @@
     #motor {
         font-size: 1.2rem;
         padding: 15px 15px;
-        border: 3px solid #0f5a6c;
     }
 
     .button-enviar {
@@ -146,11 +146,7 @@
     }
 
     .descricao-pagina {
-        font-size: 1.4rem;
-    }
-
-    .button-enviar {
-        font-size: 1.7rem;
+        font-size: 1.2rem;
     }
 
     #ano,
@@ -182,7 +178,7 @@
     }
 
     .descricao-pagina {
-        font-size: 1.7em;
+        font-size: 1.3em;
     }
 
     #ano,
@@ -191,7 +187,6 @@
     #motor {
         font-size: 1.2rem;
         padding: 15px 15px;
-        border: 3px solid #0f5a6c;
     }
 
     .button-enviar {

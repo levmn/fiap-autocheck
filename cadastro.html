@@ -28,13 +28,10 @@
 
                 <ul class="lista-navegacao">
                     <li class="item-lista-navegacao">
-                        <a href="">Sobre nós</a>
-                    </li>
-                    <li class="item-lista-navegacao">
-                        <a href="">Parceria Porto</a>
-                    </li>
-                    <li class="item-lista-navegacao">
                         <a href="">Ajuda</a>
+                    </li>
+                    <li class="item-lista-navegacao">
+                        <a href="https://www.portoseguro.com.br/centros-automotivos-porto-seguro">Parceria Porto</a>
                     </li>
                 </ul>
             </div>
@@ -46,9 +43,10 @@
 
     </header>
 
-    <main> <!-- Conteúdo principal (cadastro) -->
+    <main class="content"> <!-- Conteúdo principal (cadastro) -->
         <div class="container">
-            <img id = "icon-backpage" src="./img/voltar-preto.png" alt="opção de volta de página">
+            <a href="./login.html"><img id="icon-backpage" src="./img/voltar-preto.png"
+                    alt="opção de volta de página"></a>
             <h1 class="titulo-pagina">Cadastrar Conta</h1>
             <p class="descricao-pagina">Preencha seus dados para continuar</p>
 
@@ -57,9 +55,9 @@
                 <input type="text" name="cpf" id="cpf" placeholder="CPF">
                 <input type="text" name="email" id="email" placeholder="E-mail">
                 <input type="password" name="senha" id="senha" placeholder="Senha">
-                <input type="password" name="confirmar-senha" id="confirmar-senha" placeholder="Confirme a senha">
+                <input type="password" name="confirmar-senha" id="confirmar-senha" placeholder="Confirmar senha">
                 <div>
-                    <button type="submit" class="button-enviar">Cadastrar</button>
+                    <button type="submit" class="button-enviar"><a href="./cadastro-veiculo.html">Cadastrar</a></button>
                 </div>
             </form>
     </main>

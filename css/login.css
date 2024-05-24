@@ -1,5 +1,4 @@
-/* Conteúdo principal (login) */
-
+/* Conteúdo principal (Login) */
 #icon-backpage {
     margin-bottom: 40px;
 }
@@ -30,7 +29,7 @@
     margin-bottom: 100px;
 }
 
-.formulario a {
+.lembrar-senha {
     color: gray;
 }
 
@@ -41,6 +40,11 @@
     background-color: #3ac0e1;
     border: none;
     border-radius: 8px;
+}
+
+.button-enviar a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .criar-conta {
@@ -99,7 +103,7 @@
 
     #icon-backpage {
         width: 50px;
-    } 
+    }
 
     .titulo-pagina {
         font-size: 1.8rem;
@@ -136,7 +140,7 @@
 
     #icon-backpage {
         width: 50px;
-    } 
+    }
 
     .titulo-pagina {
         font-size: 1.8rem;
@@ -173,7 +177,7 @@
 
     #icon-backpage {
         width: 40px;
-    } 
+    }
 
     .titulo-pagina {
         font-size: 2rem;
@@ -210,7 +214,7 @@
 
     #icon-backpage {
         width: 40px;
-    } 
+    }
 
     .titulo-pagina {
         font-size: 2.3rem;

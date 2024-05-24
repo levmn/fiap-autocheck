@@ -1,15 +1,15 @@
-/*Conteúdo principal (Gerar-Diagnóstico) */
-
+/*Conteúdo principal (Gerar Diagnóstico) */
 #icon-backpage {
     margin-bottom: 40px;
 }
-#icon-search{
+
+#icon-search {
     width: 62px;
     margin-bottom: 20px;
     border: 2px solid #0f5a6c;
     border-radius: 8px;
     padding: 10px;
-    background-color:#3AC0E1;
+    background-color: #3AC0E1;
     position: absolute;
 }
 
@@ -37,23 +37,28 @@
     border: 2px solid #0f5a6c;
     border-radius: 8px;
 }
-#busca-codigo-falha::placeholder{
+
+#busca-codigo-falha::placeholder {
     color: #0f5a6c;
 }
+
 .section-button {
     display: flex;
     flex-direction: column;
 }
-.section-button button{
+
+.section-button button {
     margin-bottom: 5%;
 }
+
 .formulario div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 100px;
 }
-.formulario{
+
+.formulario {
     display: flex;
     justify-content: flex-end;
 }
@@ -73,7 +78,7 @@
     border-radius: 8px;
 }
 
-#icon-button{
+#icon-button {
     width: 35px;
     padding-right: 7px;
 }
@@ -99,19 +104,19 @@
     #icon-backpage {
         width: 30px;
     }
-    
-    #icon-search{
+
+    #icon-search {
         width: 43px;
         padding: 5px;
     }
-    
+
     .titulo-pagina {
         font-size: 1.4rem;
     }
 
     .descricao-pagina {
         font-size: 0.7rem;
-        
+
     }
 
     #busca-codigo-falha {
@@ -135,7 +140,7 @@
     }
 
     .button-enviar p {
-        padding-top: 5px; 
+        padding-top: 5px;
     }
 
     .criar-conta {
@@ -150,7 +155,7 @@
 
     #icon-backpage {
         width: 50px;
-    } 
+    }
 
     .titulo-pagina {
         font-size: 1.8rem;
@@ -186,7 +191,7 @@
 
     #icon-backpage {
         width: 50px;
-    } 
+    }
 
     .titulo-pagina {
         font-size: 1.8rem;
@@ -222,7 +227,8 @@
 
     #icon-backpage {
         width: 40px;
-    } 
+    }
+
     .titulo-pagina {
         font-size: 2rem;
     }
@@ -240,7 +246,7 @@
         font-size: 1rem;
     }
 
-    .button-enviar {   
+    .button-enviar {
         font-size: 1.2rem;
         padding: 15px 35px;
     }
@@ -257,7 +263,7 @@
 
     #icon-backpage {
         width: 40px;
-    } 
+    }
 
     .titulo-pagina {
         font-size: 2.3rem;

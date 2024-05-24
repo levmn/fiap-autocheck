@@ -1,4 +1,4 @@
-/* Conteúdo principal (login) */
+/* Conteúdo principal (Cadastro do Veículo) */
 #icon-backpage {
     margin-bottom: 40px;
 }
@@ -37,6 +37,11 @@
     background-color: #3ac0e1;
     border: none;
     border-radius: 8px;
+}
+
+.button-enviar a {
+    text-decoration: none;
+    color: #000000;
 }
 
 @media (max-width: 575px) {

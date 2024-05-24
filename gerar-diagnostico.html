@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
 
 
     <title>Gerar Diagnóstico</title>
@@ -44,35 +44,38 @@
         </nav>
     </header>
 
-    <main> <!-- Conteúdo principal (gerar diagnóstico do veículo) -->
+    <main class="content"> <!-- Conteúdo principal (gerar diagnóstico do veículo) -->
         <div class="container">
-            <img id="icon-backpage" src="./img/voltar-preto.png" alt="opção de volta de página">
+            <a href="./cadastro-veiculo.html"><img id="icon-backpage" src="./img/voltar-preto.png"
+                    alt="opção de volta de página"></a>
             <h1 class="titulo-pagina">Gerar Diagnóstico</h1>
-            <p class="descricao-pagina">Hyundai HB20 Sedan -2013</p>
-            
+            <p class="descricao-pagina">Hyundai HB20 Sedan - 2013</p>
+
             <form action="" method="post" class="formulario">
-                <input type="text" nome="busca-codigo-falha" id="busca-codigo-falha" placeholder="Busque pelo código de falha">
+                <input type="text" nome="busca-codigo-falha" id="busca-codigo-falha"
+                    placeholder="Busque pelo código de falha">
                 <img id="icon-search" src="./img/search.png" alt="icon-lupa">
             </form>
 
-            <p id="sem-codigo-falha" class="descricao-pagina">Não tem o código de falha? Busque por alternativas abaixo.</p>
+            <p id="sem-codigo-falha" class="descricao-pagina">Não tem o código de falha? Busque por alternativas abaixo.
+            </p>
             <div class="section-button">
                 <button type="submit" class="button-enviar">
-                    <img id="icon-button" src="./img/Ícone Elétrico.png" alt="icon elétrica">
+                    <img id="icon-button" src="./img/icone-eletrico.png" alt="icon elétrica">
                     <p>Elétrica</p>
                 </button>
                 <button type="submit" class="button-enviar">
-                    <img id="icon-button" src="./img/Ícone Mecânico.png" alt="icon mecânica">
+                    <img id="icon-button" src="./img/icone-mecanico.png" alt="icon mecânica">
                     <p>Mecânica</p>
                 </button>
                 <button type="submit" class="button-enviar">
-                    <img id="icon-button" src="./img/Ícone Soluções.png" alt="icon soluções">
+                    <img id="icon-button" src="./img/icone-solucoes.png" alt="icon soluções">
                     <p>Possíveis Soluções</p>
                 </button>
             </div>
         </div>
     </main>
- 
+
     <footer class="estilo-footer"> <!-- Rodapé (redes sociais e direitos reservados) -->
         <div class="container-footer">
             <img id="logo-footer" src="./img/autocheck-branco.png" alt="">

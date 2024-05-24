@@ -1,4 +1,4 @@
-/* Boas Vindas */
+/* Sessão de Boas Vindas */
 .section-boas-vindas {
     position: relative;
     height: 538px;
@@ -85,7 +85,7 @@
     transition: 0.5s;
 }
 
-/* Nossos Serviços */
+/* Sessão dos Nossos Serviços */
 .section-servicos {
     width: 100vw;
 }
@@ -131,7 +131,7 @@
     transition: 0.5s;
 }
 
-/* Time AutoCheck */
+/* Sessão Time AutoCheck */
 .section-time {
     width: 100%;
     background-color: #EFF4FF;
@@ -145,9 +145,17 @@
     padding: 40px 0;
 }
 
+.section-time p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #0f5a6c;
+    text-align: center;
+    padding: 0 15% 3% 15%;
+}
+
 .integrantes {
     display: flex;
-    gap: 20px;
+    gap: 40px;
     margin: 0 10% 0;
     text-align: center;
     padding-bottom: 40px;
@@ -155,7 +163,7 @@
 
 .integrantes img {
     border: 5px solid #3AC0E1;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .integrantes h3 {
@@ -167,7 +175,7 @@
     color: #0f5a6c;
 }
 
-/* Área de Contato */
+/* Sessão da Área de Contato */
 .section-contato {
     width: 100%;
 }

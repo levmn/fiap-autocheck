@@ -4,21 +4,20 @@
     padding: 0;
 }
 
-html { /* Serve para criar uma medida relativa do site, vamos usar nas Media Queries com REM*/
+html {
     font-size: 20px;
 }
 
 body {
     font-family: "Rubik", Arial, Helvetica, sans-serif;
-    position: relative; /* Vai criar um ponto de base */
+    position: relative;
 }
 
-img { /* Serve para flexibilizar as imagens para os Media Queries */
+img {
     max-width: 100%;
 }
 
 /* CSS do menu de navegação/cabeçalho */
-
 #logo-link {
     flex-grow: 0;
     flex-shrink: 0;
@@ -34,7 +33,7 @@ img { /* Serve para flexibilizar as imagens para os Media Queries */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10px;
+    padding: 5px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -89,15 +88,21 @@ img { /* Serve para flexibilizar as imagens para os Media Queries */
 }
 
 /* CSS do Footer */
+.content {
+    min-height: calc(100vh - 250px);
+}
 
 .estilo-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    padding: 20px 50px;
+    width: 100vw;
+    height: 150px;
+    padding: 0 50px;
     background-color: #000000;
     color: #FFFFFF;
+    position: relative;
+    bottom: 0;
 }
 
 .container-footer {
@@ -208,7 +213,7 @@ img { /* Serve para flexibilizar as imagens para os Media Queries */
 
 @media (min-width: 1200px) {
     #logo {
-        width: 400px;
+        width: 300px;
     }
 
     .cabecalho {

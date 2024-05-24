@@ -1,6 +1,6 @@
 /*Conteúdo principal (Gerar-Diagnóstico) */
 
- #icon-backpage {
+#icon-backpage {
     margin-bottom: 40px;
 }
 #icon-search{
@@ -21,6 +21,13 @@
 .descricao-pagina {
     color: #0f5a6c;
     margin-bottom: 40px;
+}
+
+#sem-codigo-falha {
+    text-align: center;
+    font-size: 80%;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 #busca-codigo-falha {
@@ -56,13 +63,14 @@
 }
 
 .button-enviar {
+    display: flex;
+    align-items: flex-start;
     font-family: "Rubik", Arial, Helvetica, sans-serif;
     font-weight: 700;
     color: #000000;
     background-color: #3ac0e1;
     border: 2px solid #000000;
     border-radius: 8px;
-    align-items: flex-start;
 }
 
 #icon-button{
@@ -70,9 +78,6 @@
     padding-right: 7px;
 }
 
-.button-enviar p {
-    padding-top: 5px; 
-}
 
 .criar-conta {
     display: flex;
@@ -114,6 +119,10 @@
         padding: 10px 10px;
     }
 
+    #sem-codigo-falha {
+        font-size: 66%;
+    }
+
     .formulario a {
         font-size: 0.7rem;
     }
@@ -124,7 +133,11 @@
         font-size: 0.8rem;
         padding: 6px 20px;
     }
-        
+
+    .button-enviar p {
+        padding-top: 5px; 
+    }
+
     .criar-conta {
         font-size: 0.7rem;
     }
@@ -227,7 +240,7 @@
         font-size: 1rem;
     }
 
-    .button-enviar {
+    .button-enviar {   
         font-size: 1.2rem;
         padding: 15px 35px;
     }

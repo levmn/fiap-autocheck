@@ -38,7 +38,7 @@
                 </ul>
             </div>
 
-            <a href="">
+            <a href="login.html">
                 <img class="icone-perfil-usuario" src="./img/icone-usuario.png" alt="">
             </a>
         </nav>
@@ -46,18 +46,21 @@
 
     <main> <!-- Conteúdo principal (gerar diagnóstico do veículo) -->
         <div class="container">
-            <img src="./img/voltar-preto.png" alt="opção de volta de página">
-            <h1>Gerar Diagnóstico</h1>
-            <p>Hyundai HB20 Sedan -2013</p>
+            <img id="icon-backpage" src="./img/voltar-preto.png" alt="opção de volta de página">
+            <h1 class="titulo-pagina">Gerar Diagnóstico</h1>
+            <p class="descricao-pagina">Hyundai HB20 Sedan -2013</p>
             
-            <form action="" method="post"></form>
-            <input type="text" nome="busca_codigo_falha" placeholder="Busque pelo código de falha">
-            <p>Não tem o código de falha? Busque por alternativas abaixo.</p>
-            <form action="" method="post">
-                <input type="text" nome="solucao-eletrica" placeholder="Elétrica">
-                <input type="text" nome="solucao-mecanica" placeholder="Mecânica">
-                <input type="text" nome="solucao-possiveis" placeholder="Possíveis Soluções">
+            <form action="" method="post" class="formulario">
+                <input type="text" nome="busca-codigo-falha" id="busca-codigo-falha" placeholder="Busque pelo código de falha">
+                <img src="" alt="icon-lupa">
             </form>
+
+            <p id="sem-codigo-falha" class="descricao-pagina">Não tem o código de falha? Busque por alternativas abaixo.</p>
+            <div class="section-button">
+                <button type="submit" class="button-enviar">Elétrica</button>
+                <button type="submit" class="button-enviar">Mecânica</button>
+                <button type="submit" class="button-enviar">Possíveis Soluções</button>
+            </div>
         </div>
     </main>
  

@@ -1,0 +1,245 @@
+/*Conteúdo principal (Gerar-Diagnóstico) */
+
+ #icon-backpage {
+    margin-bottom: 40px;
+}
+
+.titulo-pagina {
+    color: #3AC0E1;
+    margin-bottom: 5px;
+}
+
+.descricao-pagina {
+    color: #0f5a6c;
+    margin-bottom: 40px;
+}
+
+#busca-codigo-falha {
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid #0f5a6c;
+    border-radius: 8px;
+}
+#busca-codigo-falha::placeholder{
+    color: #0f5a6c;
+}
+.section-button {
+    display: flex;
+    flex-direction: column;
+}
+.section-button button{
+    margin-bottom: 4%;
+}
+.formulario div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.formulario a {
+    color: gray;
+}
+
+.button-enviar {
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: #3ac0e1;
+    border: none;
+    border-radius: 8px;
+}
+
+.criar-conta {
+    display: flex;
+    flex-direction: column;
+}
+
+.criar-conta a {
+    margin: 10px 0;
+    font-weight: 700;
+    color: #3ac0e1;
+    text-decoration: none;
+}
+
+@media (max-width: 575px) {
+    .container {
+        margin: 40px 10%;
+    }
+
+    #icon-backpage {
+        width: 30px;
+    }
+
+    .titulo-pagina {
+        font-size: 1.4rem;
+    }
+
+    .descricao-pagina {
+        font-size: 0.7rem;
+        
+    }
+
+    #busca-codigo-falha {
+        font-size: 0.8rem;
+        padding: 10px 10px;
+    }
+
+    .formulario a {
+        font-size: 0.7rem;
+    }
+
+    .button-enviar {
+        font-size: 0.8rem;
+        padding: 10px 20px;
+    }
+
+    .criar-conta {
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .container {
+        margin: 60px 10%;
+    }
+
+    #icon-backpage {
+        width: 50px;
+    } 
+
+    .titulo-pagina {
+        font-size: 1.8rem;
+    }
+
+    .descricao-pagina {
+        font-size: 1rem;
+    }
+
+    #busca-codigo-falha {
+        font-size: 1.2rem;
+        padding: 15px 15px;
+    }
+
+    .formulario a {
+        font-size: 1.1rem;
+    }
+
+    .button-enviar {
+        font-size: 1.2rem;
+        padding: 15px 25px;
+    }
+
+    .criar-conta {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        margin: 60px 20%;
+    }
+
+    #icon-backpage {
+        width: 50px;
+    } 
+
+    .titulo-pagina {
+        font-size: 1.8rem;
+    }
+
+    .descricao-pagina {
+        font-size: 1rem;
+    }
+
+    #busca-codigo-falha {
+        font-size: 1.2rem;
+        padding: 15px 15px;
+    }
+
+    .formulario a {
+        font-size: 1.1rem;
+    }
+
+    .button-enviar {
+        font-size: 1.2rem;
+        padding: 15px 25px;
+    }
+
+    .criar-conta {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        margin: 60px 25%;
+    }
+
+    #icon-backpage {
+        width: 40px;
+    } 
+
+    .titulo-pagina {
+        font-size: 2rem;
+    }
+
+    .descricao-pagina {
+        font-size: 1.2rem;
+    }
+
+    #busca-codigo-falha {
+        font-size: 1.2rem;
+        padding: 15px 15px;
+    }
+
+    .formulario a {
+        font-size: 1rem;
+    }
+
+    .button-enviar {
+        font-size: 1.2rem;
+        padding: 15px 35px;
+    }
+
+    .criar-conta {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        margin: 60px 30%;
+    }
+
+    #icon-backpage {
+        width: 40px;
+    } 
+
+    .titulo-pagina {
+        font-size: 2.3rem;
+    }
+
+    .descricao-pagina {
+        font-size: 1.3em;
+    }
+
+    #busca-codigo-falha {
+        font-size: 1.2rem;
+        padding: 15px 15px;
+    }
+
+    .formulario a {
+        font-size: 1rem;
+    }
+
+    .button-enviar {
+        font-size: 1.2rem;
+        padding: 15px 35px;
+    }
+
+    .criar-conta {
+        font-size: 1rem;
+    }
+}

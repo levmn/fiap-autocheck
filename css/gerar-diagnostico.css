@@ -4,15 +4,15 @@
     margin-bottom: 40px;
 }
 #icon-search{
-    width: 43px;
+    width: 62px;
     margin-bottom: 20px;
     border: 2px solid #0f5a6c;
-    border-left: none;
     border-radius: 8px;
-    padding: 5px;
+    padding: 10px;
     background-color:#3AC0E1;
     position: absolute;
 }
+
 .titulo-pagina {
     color: #3AC0E1;
     margin-bottom: 5px;
@@ -38,7 +38,7 @@
     flex-direction: column;
 }
 .section-button button{
-    margin-bottom: 4%;
+    margin-bottom: 5%;
 }
 .formulario div {
     display: flex;
@@ -58,10 +58,20 @@
 .button-enviar {
     font-family: "Rubik", Arial, Helvetica, sans-serif;
     font-weight: 700;
-    color: white;
+    color: #000000;
     background-color: #3ac0e1;
-    border: none;
+    border: 2px solid #000000;
     border-radius: 8px;
+    align-items: flex-start;
+}
+
+#icon-button{
+    width: 35px;
+    padding-right: 7px;
+}
+
+.button-enviar p {
+    padding-top: 5px; 
 }
 
 .criar-conta {
@@ -86,7 +96,8 @@
     }
     
     #icon-search{
-        /* width: 30px; */
+        width: 43px;
+        padding: 5px;
     }
     
     .titulo-pagina {
@@ -108,10 +119,12 @@
     }
 
     .button-enviar {
+        display: flex;
+        justify-content: flex-start;
         font-size: 0.8rem;
-        padding: 10px 20px;
+        padding: 6px 20px;
     }
-
+        
     .criar-conta {
         font-size: 0.7rem;
     }
@@ -197,7 +210,6 @@
     #icon-backpage {
         width: 40px;
     } 
-
     .titulo-pagina {
         font-size: 2rem;
     }

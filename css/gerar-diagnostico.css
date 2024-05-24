@@ -3,7 +3,16 @@
  #icon-backpage {
     margin-bottom: 40px;
 }
-
+#icon-search{
+    width: 43px;
+    margin-bottom: 20px;
+    border: 2px solid #0f5a6c;
+    border-left: none;
+    border-radius: 8px;
+    padding: 5px;
+    background-color:#3AC0E1;
+    position: absolute;
+}
 .titulo-pagina {
     color: #3AC0E1;
     margin-bottom: 5px;
@@ -36,6 +45,10 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 100px;
+}
+.formulario{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .formulario a {
@@ -71,7 +84,11 @@
     #icon-backpage {
         width: 30px;
     }
-
+    
+    #icon-search{
+        /* width: 30px; */
+    }
+    
     .titulo-pagina {
         font-size: 1.4rem;
     }
